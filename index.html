@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechSolutions | Infraestrutura</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>WPS Solutions | Infraestrutura</title>
+    <link rel="stylesheet" href="./public/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 </head>
 <body class="bg-gray-50">
 
     <nav class="bg-royal text-white p-6 shadow-lg sticky top-0 z-50">
         <div class="container mx-auto flex justify-between items-center">
-            <div class="text-2xl font-bold italic tracking-tighter">TECH<span class="text-blue-200">SOLUTIONS</span></div>
+            <div class="text-2xl font-bold tracking-tighter">WPS<span class="text-blue-200"> SOLUTIONS</span></div>
             
             <div class="hidden md:flex space-x-8 font-medium">
                 <a href="#home" class="hover:text-blue-200 transition">Início</a>
@@ -28,53 +30,173 @@
         </div>
     </nav>
 
-    <section id="home" class="h-screen flex flex-col justify-center items-center bg-gradient-to-b from-royal to-blue-700 text-white p-4">
-        <h1 class="text-6xl md:text-8xl font-bold mb-6 text-center">Tecnologia em <br>cada detalhe.</h1>
-        <p class="text-xl md:text-2xl text-blue-100">Sua infraestrutura em mãos especialistas.</p>
-    </section>
+    <section id="home" class="h-screen flex items-center bg-royal text-white px-8 md:px-20">
+        <div class="container mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+                <span class="inline-block py-1 px-3 rounded-full bg-blue-500/30 text-blue-100 text-sm font-semibold tracking-wider uppercase border border-blue-400/30">
+                    Excelência em Infraestrutura
+                </span>
+                <h1 class="text-5xl md:text-7xl font-extrabold leading-tight">
+                    WPS <span class="text-blue-200">Solutions</span>
+                </h1>
+                <p class="text-xl text-blue-50">
+                    Sua infraestrutura tecnológica em mãos especialistas. Da elétrica de alta performance à conectividade total, nós entregamos segurança e inovação.
+                </p>
+                <div class="flex space-x-4 pt-4">
+                    <a href="#servicos" class="bg-white text-royal px-8 py-4 rounded-lg font-bold hover:bg-blue-50 transition shadow-lg">Ver Serviços</a>
+                    <a href="#contato" class="border border-white/30 text-white px-8 py-4 rounded-lg font-bold hover:bg-white/10 transition">Fale com um técnico</a>
+                </div>
+            </div>
 
-    <section id="sobre" class="h-screen flex flex-col justify-center items-center bg-white p-10">
-        <h2 class="text-4xl font-bold text-royal mb-8">Sobre Nós</h2>
-        <p class="max-w-2xl text-center text-lg text-gray-600 leading-relaxed">
-            Especialistas em soluções de engenharia elétrica, redes e segurança. 
-            Com anos de mercado, entregamos infraestrutura robusta, sistemas de 
-            emergência confiáveis e telecomunicações de ponta para sua empresa ou residência.
-        </p>
-    </section>
-
-    <section id="servicos" class="h-screen flex flex-col justify-center bg-gray-100 p-10">
-        <h2 class="text-4xl font-bold text-center mb-16">Nossos Serviços</h2>
-        <div class="container mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div class="p-8 bg-white shadow-xl rounded-2xl border-b-4 border-royal">
-                <i class="bi bi-lightning-charge text-4xl text-royal"></i>
-                <h3 class="text-xl font-bold mt-4">Elétrica</h3>
-            </div>
-            <div class="p-8 bg-white shadow-xl rounded-2xl border-b-4 border-royal">
-                <i class="bi bi-camera-video text-4xl text-royal"></i>
-                <h3 class="text-xl font-bold mt-4">CFTV</h3>
-            </div>
-            <div class="p-8 bg-white shadow-xl rounded-2xl border-b-4 border-royal">
-                <i class="bi bi-shield-lock text-4xl text-royal"></i>
-                <h3 class="text-xl font-bold mt-4">Emergência</h3>
-            </div>
-            <div class="p-8 bg-white shadow-xl rounded-2xl border-b-4 border-royal">
-                <i class="bi bi-router text-4xl text-royal"></i>
-                <h3 class="text-xl font-bold mt-4">Redes/Telecom</h3>
+            <div class="hidden md:flex justify-center">
+                <div class="relative w-full max-w-md aspect-square bg-blue-500/20 rounded-3xl border border-white/10 backdrop-blur-sm flex items-center justify-center">
+                    <i class="bi bi-cpu text-[150px] text-blue-200 opacity-80"></i>
+                    <div class="absolute -bottom-10 -left-10 bg-white text-royal p-6 rounded-2xl shadow-2xl">
+                        <p class="font-bold text-2xl">10+</p>
+                        <p class="text-sm">Anos de experiência</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="contato" class="h-screen flex flex-col justify-center items-center bg-royal text-white p-10">
-        <h2 class="text-4xl font-bold mb-10">Fale Conosco</h2>
-        <div class="text-center space-y-4">
-            <p class="text-lg">Pronto para iniciar seu projeto?</p>
-            <button class="bg-white text-royal px-8 py-3 rounded-full font-bold hover:bg-blue-100 transition">
-                Enviar Mensagem no WhatsApp
-            </button>
+    <section id="sobre" class="min-h-screen flex items-center bg-gray-50 py-20 px-6">
+        <div class="container mx-auto">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                
+                <div class="space-y-6">
+                    <h2 class="text-4xl md:text-5xl font-extrabold text-royal">Quem é a <br>WPS Solutions?</h2>
+                    <p class="text-lg text-gray-600 leading-relaxed">
+                        Mais do que tecnologia, entregamos tranquilidade. A WPS Solutions nasceu com o propósito de transformar infraestruturas complexas em sistemas eficientes, seguros e conectados. Atuamos com rigor técnico em cada projeto, garantindo que sua residência ou empresa esteja sempre um passo à frente.
+                    </p>
+                    
+                    <ul class="space-y-4">
+                        <li class="flex items-center text-gray-700">
+                            <i class="bi bi-check-circle-fill text-royal mr-3"></i> Atendimento personalizado e ágil
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i class="bi bi-check-circle-fill text-royal mr-3"></i> Equipamentos de alta durabilidade
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i class="bi bi-check-circle-fill text-royal mr-3"></i> Profissionais certificados e experientes
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="bg-royal p-6 rounded-3xl text-white shadow-xl">
+                        <i class="bi bi-graph-up-arrow text-3xl mb-4 block"></i>
+                        <h4 class="font-bold text-xl">Inovação</h4>
+                        <p class="text-blue-100 text-sm mt-2">Tecnologia de ponta em todos os projetos.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-3xl shadow-lg border border-gray-100">
+                        <i class="bi bi-people-fill text-3xl text-royal mb-4 block"></i>
+                        <h4 class="font-bold text-xl">Foco no Cliente</h4>
+                        <p class="text-gray-500 text-sm mt-2">Soluções feitas sob medida para você.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-3xl shadow-lg border border-gray-100">
+                        <i class="bi bi-shield-check text-3xl text-royal mb-4 block"></i>
+                        <h4 class="font-bold text-xl">Segurança</h4>
+                        <p class="text-gray-500 text-sm mt-2">Conformidade com normas técnicas.</p>
+                    </div>
+                    <div class="bg-blue-100 p-6 rounded-3xl flex items-center justify-center">
+                        <div class="text-center">
+                            <h4 class="text-royal font-black text-4xl">100%</h4>
+                            <p class="text-royal/80 font-medium">Comprometidos</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </section>
 
+    <section id="servicos" class="min-h-screen flex flex-col justify-center bg-gray-50 py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-royal mb-16">Nossos Serviços</h2>
+            
+            <div class="owl-carousel owl-theme">
+                <div class="item p-8 bg-white shadow-lg rounded-2xl border-t-4 border-royal">
+                    <i class="bi bi-lightning-charge text-4xl text-royal mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Elétrica</h3>
+                    <p class="text-sm text-gray-600">Instalações e manutenções elétricas residenciais e comerciais.</p>
+                </div>
+                <div class="item p-8 bg-white shadow-lg rounded-2xl border-t-4 border-royal">
+                    <i class="bi bi-camera-video text-4xl text-royal mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">CFTV</h3>
+                    <p class="text-sm text-gray-600">Segurança monitorada com tecnologia de última geração.</p>
+                </div>
+                <div class="item p-8 bg-white shadow-lg rounded-2xl border-t-4 border-royal">
+                    <i class="bi bi-shield-lock text-4xl text-royal mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Emergência</h3>
+                    <p class="text-sm text-gray-600">Sistemas de iluminação e segurança contra incêndio.</p>
+                </div>
+                <div class="item p-8 bg-white shadow-lg rounded-2xl border-t-4 border-royal">
+                    <i class="bi bi-router text-4xl text-royal mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Redes/Telecom</h3>
+                    <p class="text-sm text-gray-600">Cabeamento estruturado e infraestrutura de rede.</p>
+                </div>
+                <div class="item p-8 bg-white shadow-lg rounded-2xl border-t-4 border-royal">
+                    <i class="bi bi-house-gear text-4xl text-royal mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Automação</h3>
+                    <p class="text-sm text-gray-600">Casas inteligentes, controle de iluminação e dispositivos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="contato" class="min-h-screen flex items-center bg-gray-900 text-white py-20 px-6">
+        <div class="container mx-auto grid md:grid-cols-2 gap-16 items-center">
+            
+            <div class="space-y-8">
+                <div>
+                    <h2 class="text-4xl md:text-5xl font-bold mb-4">Entre em contato</h2>
+                    <p class="text-gray-400 text-lg">Estamos prontos para atender sua solicitação. Solicite um orçamento sem compromisso.</p>
+                </div>
+                
+                <div class="space-y-6">
+                    <div class="flex items-center space-x-4">
+                        <div class="bg-royal p-3 rounded-lg"><i class="bi bi-envelope text-xl"></i></div>
+                        <div>
+                            <p class="text-sm text-gray-400">E-mail</p>
+                            <p class="font-bold">contato@wpssolutions.com.br</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <div class="bg-royal p-3 rounded-lg"><i class="bi bi-geo-alt text-xl"></i></div>
+                        <div>
+                            <p class="text-sm text-gray-400">Localização</p>
+                            <p class="font-bold">Franco da Rocha - SP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white p-8 md:p-10 rounded-3xl shadow-2xl text-gray-800">
+                <form action="#" method="POST" class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-bold mb-1">Nome</label>
+                        <input type="text" class="w-full p-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-royal outline-none" placeholder="Seu nome">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-bold mb-1">E-mail</label>
+                        <input type="email" class="w-full p-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-royal outline-none" placeholder="seuemail@exemplo.com">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-bold mb-1">Mensagem</label>
+                        <textarea class="w-full p-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-royal outline-none h-32" placeholder="Como podemos ajudar?"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-royal text-white py-4 rounded-xl font-bold hover:bg-blue-700 transition transform hover:-translate-y-1">
+                        Enviar Mensagem
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="./public/js/script.js"></script>
 </body>
 </html>
