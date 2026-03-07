@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSolutions | Infraestrutura</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body class="bg-gray-50">
+
+    <nav class="bg-royal text-white p-6 shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-2xl font-bold italic tracking-tighter">TECH<span class="text-blue-200">SOLUTIONS</span></div>
+            
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#home" class="hover:text-blue-200 transition">Início</a>
+                <a href="#sobre" class="hover:text-blue-200 transition">Sobre</a>
+                <a href="#servicos" class="hover:text-blue-200 transition">Serviços</a>
+                <a href="#contato" class="hover:text-blue-200 transition">Contato</a>
+            </div>
+
+            <div class="flex space-x-4 text-xl">
+                <a href="#"><i class="bi bi-whatsapp"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="h-screen flex flex-col justify-center items-center bg-gradient-to-b from-royal to-blue-700 text-white p-4">
+        <h1 class="text-6xl md:text-8xl font-bold mb-6 text-center">Tecnologia em <br>cada detalhe.</h1>
+        <p class="text-xl md:text-2xl text-blue-100">Sua infraestrutura em mãos especialistas.</p>
+    </section>
+
+    <section id="sobre" class="h-screen flex flex-col justify-center items-center bg-white p-10">
+        <h2 class="text-4xl font-bold text-royal mb-8">Sobre Nós</h2>
+        <p class="max-w-2xl text-center text-lg text-gray-600 leading-relaxed">
+            Especialistas em soluções de engenharia elétrica, redes e segurança. 
+            Com anos de mercado, entregamos infraestrutura robusta, sistemas de 
+            emergência confiáveis e telecomunicações de ponta para sua empresa ou residência.
+        </p>
+    </section>
+
+    <section id="servicos" class="h-screen flex flex-col justify-center bg-gray-100 p-10">
+        <h2 class="text-4xl font-bold text-center mb-16">Nossos Serviços</h2>
+        <div class="container mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="p-8 bg-white shadow-xl rounded-2xl border-b-4 border-royal">
+                <i class="bi bi-lightning-charge text-4xl text-royal"></i>
+                <h3 class="text-xl font-bold mt-4">Elétrica</h3>
+            </div>
+            <div class="p-8 bg-white shadow-xl rounded-2xl border-b-4 border-royal">
+                <i class="bi bi-camera-video text-4xl text-royal"></i>
+                <h3 class="text-xl font-bold mt-4">CFTV</h3>
+            </div>
+            <div class="p-8 bg-white shadow-xl rounded-2xl border-b-4 border-royal">
+                <i class="bi bi-shield-lock text-4xl text-royal"></i>
+                <h3 class="text-xl font-bold mt-4">Emergência</h3>
+            </div>
+            <div class="p-8 bg-white shadow-xl rounded-2xl border-b-4 border-royal">
+                <i class="bi bi-router text-4xl text-royal"></i>
+                <h3 class="text-xl font-bold mt-4">Redes/Telecom</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="h-screen flex flex-col justify-center items-center bg-royal text-white p-10">
+        <h2 class="text-4xl font-bold mb-10">Fale Conosco</h2>
+        <div class="text-center space-y-4">
+            <p class="text-lg">Pronto para iniciar seu projeto?</p>
+            <button class="bg-white text-royal px-8 py-3 rounded-full font-bold hover:bg-blue-100 transition">
+                Enviar Mensagem no WhatsApp
+            </button>
+        </div>
+    </section>
+
+
+    <script src="./public/js/script.js"></script>
+</body>
+</html>
