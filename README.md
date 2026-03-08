@@ -34,6 +34,8 @@ O **WPS Solutions** é um website institucional moderno e responsivo focado na a
 ├── index.html            # Estrutura principal do site
 ├── .gitattributes        # Atributos de configuração do Git
 └── README.md             # Documentação do projeto
+```
+
 🔧 Como Executar
 O projeto é puramente frontend (estático), não exigindo compiladores ou servidores complexos.
 
