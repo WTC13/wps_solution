@@ -36,24 +36,25 @@ O **WPS Solutions** é um website institucional moderno e responsivo focado na a
 └── README.md             # Documentação do projeto
 ```
 
-🔧 Como Executar
+## 🔧 Como Executar
 O projeto é puramente frontend (estático), não exigindo compiladores ou servidores complexos.
 
-Clone o repositório:
+**Clone o repositório:**
 
-Bash
+```bash
 git clone [https://github.com/WTC13/wps_solution.git](https://github.com/WTC13/wps_solution.git)
-Abra o arquivo principal:
-Navegue até a pasta raiz e abra o arquivo index.html em seu navegador de preferência.
+```
 
-⚙️ Customização do Tema
-As cores principais foram estendidas através da configuração do Tailwind presente em public/js/script.js:
+**Abra o arquivo principal:**
+Navegue até a pasta raiz e abra o arquivo `index.html` em seu navegador de preferência.
 
-Royal: #4169E1
+## ⚙️ Customização do Tema
+As cores principais foram estendidas através da configuração do Tailwind presente em `public/js/script.js`:
 
-Dark Royal: #1e3a8a
+* **Royal:** #4169E1
+* **Dark Royal:** #1e3a8a
 
-✒️ Autor
-Wendell Timóteo (WTC13) - Desenvolvedor Full Stack
+## ✒️ Autor
+**Wendell Timóteo (WTC13)** - Desenvolvedor Full Stack.
 
 Desenvolvido com foco em excelência técnica e performance.
