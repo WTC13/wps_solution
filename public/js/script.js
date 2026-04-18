@@ -3,7 +3,7 @@ tailwind.config = {
         extend: {
             colors: {
                 royal: '#4169E1',
-                darkRoyal: '#1e3a8a',
+                darkRoyal: '#1f2f5c',
             }
         }
     }
